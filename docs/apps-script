@@ -1,0 +1,18 @@
+function onOpen() {
+
+  SpreadsheetApp.getUi()
+    .createMenu("Kingdom OS")
+
+    .addItem("Refresh Dashboard", "refreshDashboard")
+
+    .addSeparator()
+
+    .addItem("Create Snapshot", "createSnapshot")
+
+    .addSeparator()
+
+    .addItem("About", "about")
+
+    .addToUi();
+
+}
